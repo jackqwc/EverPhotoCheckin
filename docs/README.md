@@ -2,9 +2,7 @@
 
 [时光相册](https://web.everphoto.cn) 签到助手，利用GitHub Actions每天自动执行。
 
-![demo](imgs/checkin.png)
-
-## 食用指南
+## 使用方法
 
 **首先，Fork本项目到自己的仓库。**
 
@@ -27,18 +25,9 @@
 
 ![Run actions](imgs/actions.png)
 
-**当然，你也可以自行编译程序并在本地手动执行：**
+**你也可以自行编译程序并在本地手动执行：**
 
 ```sh
 $ go get github.com/winterssy/EverPhotoCheckin
 $ EverPhotoCheckin -mobile YOUR_MOBILE -password YOUR_PASSWORD
 ```
-
-## 捐赠支持
-
-如果你觉得本项目对你有帮助，或者单纯想请开发者喝杯咖啡，可使用微信扫描下方的赞赏码。
-
-<div align="center">
-	<img src="imgs/wechat_reward.png" alt="微信赞赏码" width= "320px" />
-</div>
-
